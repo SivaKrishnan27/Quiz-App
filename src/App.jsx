@@ -5,16 +5,16 @@ import Quiz from './pages/Quiz'
 
   const userContext = createContext()
 const App = () => {
-
+  const [uName,SetUName] = useState('')
   const [email,SetEmail] = useState('')
   const [password,SetPassword]= useState('')
 
 
   return (
-   <userContext.Provider value={{email,password}}>
+   <userContext.Provider value={{uName,email,password}}>
    <Router basename='/Quiz-App'>
     <Routes>
-      <Route path='/' index exact element={ <Login password = {password} SetPassword ={SetPassword} email = {email} SetEmail={SetEmail} />}/>
+      <Route path='/' index exact element={ <Login uName={uName} SetUName={SetUName} password = {password} SetPassword ={SetPassword} email = {email} SetEmail={SetEmail} />}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/quiz/:lobbyId'element={<Quiz/>} />
         <Route path='/quiz'element={<Quiz/>} />
@@ -24,10 +24,10 @@ const App = () => {
   )
 }
 
-const Login = ({password, SetPassword, email, SetEmail}) =>{
+const Login = ({uName,SetUName, password, SetPassword, email, SetEmail}) =>{
   return(
     <div>
- 
+      <input className='bg-gray-700 border-2 border-blue-50 px-4 py-2 rounded-[6px]' type="uName" name="uName"  placeholder=' User Name' value={uName}  onChange={(e)=> SetUName(e.target.value)}/>
       <input className='bg-gray-700 border-2 border-blue-50 px-4 py-2 rounded-[6px]' type="email" name="email"  placeholder='Email Address' value={email}  onChange={(e)=> SetEmail(e.target.value)}/>
       <input className='bg-gray-700 border-2 border-blue-50 px-4 py-2 rounded-[6px]' type="password" name="password"  placeholder='Password' value={password} onChange={(e)=> SetPassword(e.target.value)}/>
       <button className='bg-green-700 px-4 py-2 rounded-[6px] text-blue-50'>Continue</button>
