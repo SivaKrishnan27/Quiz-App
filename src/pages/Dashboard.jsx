@@ -15,7 +15,7 @@ const Dashboard = () => {
                         <h3>{server.serverTitle} - server ID: {server.lobbyId}</h3>
                         <p>{server.serverDescription}</p>
                     </div>
-                    <Link to={`/quiz/${server.lobbyId}`} className='bg-green-900 rounded-[6px] px-4 py-2 text-blue-50'>Join</Link>
+   936                 <Link to={`/quiz/${server.lobbyId}`} className='bg-green-900 rounded-[6px] px-4 py-2 text-blue-50'>Join</Link>
                 </div>)
             })}
         </div>

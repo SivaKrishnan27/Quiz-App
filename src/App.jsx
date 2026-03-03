@@ -12,7 +12,7 @@ const App = () => {
 
   return (
    <userContext.Provider value={{email,password}}>
-   <Router>
+   <Router basename='/Quiz-App'>
     <Routes>
       <Route path='/' index exact element={ <Login password = {password} SetPassword ={SetPassword} email = {email} SetEmail={SetEmail} />}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
