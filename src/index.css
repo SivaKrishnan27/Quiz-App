@@ -1,2 +1,10 @@
-
+*{
+    border: 0;
+    padding: 0;
+}
 @import "tailwindcss";
+.players-List{
+    top: 8px;
+    right: 16px;
+    position: absolute;
+}

@@ -1,10 +1,18 @@
 export let usersDetails = [
-    {email: "rajesh@gmail.com",
-        password: "Rajesh@123"
-    },
-     {email: "suresh@gmail.com",
-        password: "Suresh@123"
-    }
+  { uName: "Rajesh", email: "rajesh@gmail.com", password: "Rajesh@123" },
+  { uName: "Suresh", email: "suresh@gmail.com", password: "Suresh@123" },
+  { uName: "Anita", email: "anita@gmail.com", password: "Anita@123" },
+  { uName: "Vikram", email: "vikram@gmail.com", password: "Vikram@123" },
+  { uName: "Pooja", email: "pooja@gmail.com", password: "Pooja@123" },
+  { uName: "Arjun", email: "arjun@gmail.com", password: "Arjun@123" },
+  { uName: "Kiran", email: "kiran@gmail.com", password: "Kiran@123" },
+  { uName: "Deepak", email: "deepak@gmail.com", password: "Deepak@123" },
+  { uName: "Meena", email: "meena@gmail.com", password: "Meena@123" },
+  { uName: "Rohith", email: "rohith@gmail.com", password: "Rohith@123" },
+  { uName: "Swathi", email: "swathi@gmail.com", password: "Swathi@123" },
+  { uName: "Naveen", email: "naveen@gmail.com", password: "Naveen@123" },
+  { uName: "Divya", email: "divya@gmail.com", password: "Divya@123" },
+  { uName: "Akash", email: "akash@gmail.com", password: "Akash@123" }
 ]
 export let guestDetails = [
      {
@@ -15,121 +23,120 @@ export let lobbyDetails = [
   {
     lobbyId: '001',
     playersDetail: [
-      { email: 'rajesh@gmail.com', points: 45 },
-      { email: 'suresh@gmail.com', points: 72 },
-      { email: 'anita@gmail.com', points: 33 },
-      { email: 'vikram@gmail.com', points: 81 },
-      { email: 'pooja@gmail.com', points: 19 }
+      { uName: 'Rajesh', email: 'rajesh@gmail.com', points: 45 },
+      { uName: 'Suresh', email: 'suresh@gmail.com', points: 72 },
+      { uName: 'Anita', email: 'anita@gmail.com', points: 33 },
+      { uName: 'Vikram', email: 'vikram@gmail.com', points: 81 },
+      { uName: 'Pooja', email: 'pooja@gmail.com', points: 19 }
     ]
   },
   {
     lobbyId: '002',
     playersDetail: [
-      { email: 'arjun@gmail.com', points: 66 },
-      { email: 'kiran@gmail.com', points: 25 },
-      { email: 'deepak@gmail.com', points: 49 },
-      { email: 'meena@gmail.com', points: 90 },
-      { email: 'rohith@gmail.com', points: 37 },
-      { email: 'swathi@gmail.com', points: 58 }
+      { uName: 'Arjun', email: 'arjun@gmail.com', points: 66 },
+      { uName: 'Kiran', email: 'kiran@gmail.com', points: 25 },
+      { uName: 'Deepak', email: 'deepak@gmail.com', points: 49 },
+      { uName: 'Meena', email: 'meena@gmail.com', points: 90 },
+      { uName: 'Rohith', email: 'rohith@gmail.com', points: 37 },
+      { uName: 'Swathi', email: 'swathi@gmail.com', points: 58 }
     ]
   },
   {
     lobbyId: '003',
     playersDetail: [
-      { email: 'naveen@gmail.com', points: 11 },
-      { email: 'divya@gmail.com', points: 74 },
-      { email: 'akash@gmail.com', points: 63 },
-      { email: 'rajesh@gmail.com', points: 28 },
-      { email: 'pooja@gmail.com', points: 95 },
-      { email: 'vikram@gmail.com', points: 42 },
-      { email: 'anita@gmail.com', points: 56 }
+      { uName: 'Naveen', email: 'naveen@gmail.com', points: 11 },
+      { uName: 'Divya', email: 'divya@gmail.com', points: 74 },
+      { uName: 'Akash', email: 'akash@gmail.com', points: 63 },
+      { uName: 'Rajesh', email: 'rajesh@gmail.com', points: 28 },
+      { uName: 'Pooja', email: 'pooja@gmail.com', points: 95 },
+      { uName: 'Vikram', email: 'vikram@gmail.com', points: 42 },
+      { uName: 'Anita', email: 'anita@gmail.com', points: 56 }
     ]
   },
   {
     lobbyId: '004',
     playersDetail: [
-      { email: 'suresh@gmail.com', points: 84 },
-      { email: 'deepak@gmail.com', points: 39 },
-      { email: 'meena@gmail.com', points: 61 },
-      { email: 'rohith@gmail.com', points: 22 },
-      { email: 'swathi@gmail.com', points: 47 }
+      { uName: 'Suresh', email: 'suresh@gmail.com', points: 84 },
+      { uName: 'Deepak', email: 'deepak@gmail.com', points: 39 },
+      { uName: 'Meena', email: 'meena@gmail.com', points: 61 },
+      { uName: 'Rohith', email: 'rohith@gmail.com', points: 22 },
+      { uName: 'Swathi', email: 'swathi@gmail.com', points: 47 }
     ]
   },
   {
     lobbyId: '005',
     playersDetail: [
-      { email: 'arjun@gmail.com', points: 73 },
-      { email: 'kiran@gmail.com', points: 18 },
-      { email: 'divya@gmail.com', points: 52 },
-      { email: 'akash@gmail.com', points: 97 },
-      { email: 'naveen@gmail.com', points: 44 },
-      { email: 'rajesh@gmail.com', points: 36 },
-      { email: 'suresh@gmail.com', points: 69 },
-      { email: 'pooja@gmail.com', points: 15 }
+      { uName: 'Arjun', email: 'arjun@gmail.com', points: 73 },
+      { uName: 'Kiran', email: 'kiran@gmail.com', points: 18 },
+      { uName: 'Divya', email: 'divya@gmail.com', points: 52 },
+      { uName: 'Akash', email: 'akash@gmail.com', points: 97 },
+      { uName: 'Naveen', email: 'naveen@gmail.com', points: 44 },
+      { uName: 'Rajesh', email: 'rajesh@gmail.com', points: 36 },
+      { uName: 'Suresh', email: 'suresh@gmail.com', points: 69 },
+      { uName: 'Pooja', email: 'pooja@gmail.com', points: 15 }
     ]
   },
   {
     lobbyId: '006',
     playersDetail: [
-      { email: 'vikram@gmail.com', points: 88 },
-      { email: 'anita@gmail.com', points: 24 },
-      { email: 'deepak@gmail.com', points: 59 },
-      { email: 'meena@gmail.com', points: 31 },
-      { email: 'rohith@gmail.com', points: 76 }
+      { uName: 'Vikram', email: 'vikram@gmail.com', points: 88 },
+      { uName: 'Anita', email: 'anita@gmail.com', points: 24 },
+      { uName: 'Deepak', email: 'deepak@gmail.com', points: 59 },
+      { uName: 'Meena', email: 'meena@gmail.com', points: 31 },
+      { uName: 'Rohith', email: 'rohith@gmail.com', points: 76 }
     ]
   },
   {
     lobbyId: '007',
     playersDetail: [
-      { email: 'swathi@gmail.com', points: 41 },
-      { email: 'naveen@gmail.com', points: 67 },
-      { email: 'divya@gmail.com', points: 12 },
-      { email: 'akash@gmail.com', points: 83 },
-      { email: 'arjun@gmail.com', points: 54 },
-      { email: 'kiran@gmail.com', points: 29 }
+      { uName: 'Swathi', email: 'swathi@gmail.com', points: 41 },
+      { uName: 'Naveen', email: 'naveen@gmail.com', points: 67 },
+      { uName: 'Divya', email: 'divya@gmail.com', points: 12 },
+      { uName: 'Akash', email: 'akash@gmail.com', points: 83 },
+      { uName: 'Arjun', email: 'arjun@gmail.com', points: 54 },
+      { uName: 'Kiran', email: 'kiran@gmail.com', points: 29 }
     ]
   },
   {
     lobbyId: '008',
     playersDetail: [
-      { email: 'rajesh@gmail.com', points: 92 },
-      { email: 'suresh@gmail.com', points: 48 },
-      { email: 'pooja@gmail.com', points: 35 },
-      { email: 'vikram@gmail.com', points: 64 },
-      { email: 'anita@gmail.com', points: 21 },
-      { email: 'deepak@gmail.com', points: 75 },
-      { email: 'meena@gmail.com', points: 53 },
-      { email: 'rohith@gmail.com', points: 16 },
-      { email: 'swathi@gmail.com', points: 87 }
+      { uName: 'Rajesh', email: 'rajesh@gmail.com', points: 92 },
+      { uName: 'Suresh', email: 'suresh@gmail.com', points: 48 },
+      { uName: 'Pooja', email: 'pooja@gmail.com', points: 35 },
+      { uName: 'Vikram', email: 'vikram@gmail.com', points: 64 },
+      { uName: 'Anita', email: 'anita@gmail.com', points: 21 },
+      { uName: 'Deepak', email: 'deepak@gmail.com', points: 75 },
+      { uName: 'Meena', email: 'meena@gmail.com', points: 53 },
+      { uName: 'Rohith', email: 'rohith@gmail.com', points: 16 },
+      { uName: 'Swathi', email: 'swathi@gmail.com', points: 87 }
     ]
   },
   {
     lobbyId: '009',
     playersDetail: [
-      { email: 'naveen@gmail.com', points: 26 },
-      { email: 'divya@gmail.com', points: 70 },
-      { email: 'akash@gmail.com', points: 58 },
-      { email: 'arjun@gmail.com', points: 93 },
-      { email: 'kiran@gmail.com', points: 14 }
+      { uName: 'Naveen', email: 'naveen@gmail.com', points: 26 },
+      { uName: 'Divya', email: 'divya@gmail.com', points: 70 },
+      { uName: 'Akash', email: 'akash@gmail.com', points: 58 },
+      { uName: 'Arjun', email: 'arjun@gmail.com', points: 93 },
+      { uName: 'Kiran', email: 'kiran@gmail.com', points: 14 }
     ]
   },
   {
     lobbyId: '010',
     playersDetail: [
-      { email: 'rajesh@gmail.com', points: 39 },
-      { email: 'suresh@gmail.com', points: 62 },
-      { email: 'pooja@gmail.com', points: 80 },
-      { email: 'vikram@gmail.com', points: 27 },
-      { email: 'anita@gmail.com', points: 51 },
-      { email: 'deepak@gmail.com', points: 34 },
-      { email: 'meena@gmail.com', points: 99 },
-      { email: 'rohith@gmail.com', points: 45 },
-      { email: 'swathi@gmail.com', points: 73 },
-      { email: 'naveen@gmail.com', points: 18 }
+      { uName: 'Rajesh', email: 'rajesh@gmail.com', points: 39 },
+      { uName: 'Suresh', email: 'suresh@gmail.com', points: 62 },
+      { uName: 'Pooja', email: 'pooja@gmail.com', points: 80 },
+      { uName: 'Vikram', email: 'vikram@gmail.com', points: 27 },
+      { uName: 'Anita', email: 'anita@gmail.com', points: 51 },
+      { uName: 'Deepak', email: 'deepak@gmail.com', points: 34 },
+      { uName: 'Meena', email: 'meena@gmail.com', points: 99 },
+      { uName: 'Rohith', email: 'rohith@gmail.com', points: 45 },
+      { uName: 'Swathi', email: 'swathi@gmail.com', points: 73 },
+      { uName: 'Naveen', email: 'naveen@gmail.com', points: 18 }
     ]
   }
 ]
-
 export let serverDetails = [
   {
     lobbyId: '001',
