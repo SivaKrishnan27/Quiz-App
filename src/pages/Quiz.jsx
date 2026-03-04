@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createContext, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import {lobbyDetails,Quiz  as QuizData } from '../assets/data/Data'
 const Quiz = () => {
