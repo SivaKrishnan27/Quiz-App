@@ -1,0 +1,116 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.index{
+    margin: auto;
+    font-size: 18px;
+}
+/* Leaderboard Styles */
+.players-List h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.leaderboard-row:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Highlighted row for the current logged-in user */
+.current-user-row {
+  background: linear-gradient(90deg, #7c3aed, #4f46e5);
+  border: 2px solid #a78bfa;
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  font-weight: 700;
+}
+
+.rank {
+  min-width: 28px;
+  font-size: 0.75rem;
+  color: #d1d5db;
+}
+
+.current-user-row .rank {
+  color: #e9d5ff;
+}
+
+.player-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.you-badge {
+  background: #fbbf24;
+  color: #1e1b4b;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.player-points {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #a5f3fc;
+}
+
+.current-user-row .player-points {
+  color: #fde68a;
+}

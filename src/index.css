@@ -1,0 +1,67 @@
+*{
+    border: 0;
+    padding: 0;
+}
+@import "tailwindcss";
+.players-List{
+    top: 8px;
+    right: 16px;
+    position: absolute;
+}
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8C7FF , #19006C);
+}
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-login{
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+    /*background-color: rgb(83, 20, 210);*/
+    color: #262626;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 1fr;
+    row-gap: 1000px;
+    border-radius: 10px;
+}
+.server-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    width: 1400px;
+    gap: 30px;
+}
+.server-container > div{
+    background-color: gray;
+    color: rgb(2, 2, 2);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.category{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.Quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: auto;
+
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
